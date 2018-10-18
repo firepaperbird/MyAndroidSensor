@@ -25,7 +25,9 @@
         </activity>
         <activity android:name=".ListAllSensorActivity" />
         <activity android:name=".BarometerActivity" />
-        <activity android:name=".CompassActivity"></activity>
+        <activity android:name=".CompassActivity" />
+        <activity android:name=".AccelerometerActivity" />
+        <activity android:name=".ProximityActivity"></activity>
     </application>
 
 </manifest>
