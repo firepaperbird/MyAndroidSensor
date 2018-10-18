@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List all Sensor"
+        android:id="@+id/btListAll"
+        android:onClick="clickToListAll"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Barometer Sensor"
+        android:id="@+id/btBaro"
+        android:onClick="clickToBaro"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compass Sensor"
+        android:id="@+id/btCompass"
+        android:onClick="clickToCompass"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List all Sensor"
+        android:id="@+id/btAccele"
+        android:onClick="clickToAccele"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List all Sensor"
+        android:id="@+id/btProximity"
+        android:onClick="clickToProximity"/>
+
+</LinearLayout>
