@@ -17,7 +17,7 @@ public class AccelerometerActivity extends AppCompatActivity implements SensorEv
     private boolean bInit;
     private SensorManager manager;
     private Sensor accelerometer;
-    private final float NOISE = 2.0f;
+    private final float NOISE = 0.5f;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
