@@ -26,6 +26,9 @@
         <activity android:name=".ListAllSensorActivity" />
         <activity android:name=".BarometerActivity" />
         <activity android:name=".CompassActivity" />
+        <activity android:name=".LightSensorActivity" />
+        <activity android:name=".HeartRateActivity"></activity>
+        <activity android:name=".CompassActivity" />
         <activity android:name=".AccelerometerActivity" />
         <activity android:name=".ProximityActivity"></activity>
     </application>
