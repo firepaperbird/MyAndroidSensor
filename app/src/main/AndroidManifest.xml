@@ -4,7 +4,7 @@
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-
+    <uses-permission android:name="android.permission.BODY_SENSORS"/>
     <uses-feature
         android:name="android.hardware.sensor.pressure"
         android:required="true" />
@@ -25,7 +25,9 @@
         </activity>
         <activity android:name=".ListAllSensorActivity" />
         <activity android:name=".BarometerActivity" />
-        <activity android:name=".CompassActivity"></activity>
+        <activity android:name=".CompassActivity" />
+        <activity android:name=".LightSensorActivity" />
+        <activity android:name=".HeartRateActivity"></activity>
     </application>
 
 </manifest>

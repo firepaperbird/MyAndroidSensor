@@ -28,14 +28,14 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="List all Sensor"
-        android:id="@+id/btAccele"
-        android:onClick="clickToAccele"/>
+        android:text="Light Sensor"
+        android:id="@+id/btLight"
+        android:onClick="clickToLight"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="List all Sensor"
-        android:id="@+id/btProximity"
-        android:onClick="clickToProximity"/>
+        android:text="Heart rate Sensor"
+        android:id="@+id/btHRM"
+        android:onClick="clickToHearRate"/>
 
 </LinearLayout>

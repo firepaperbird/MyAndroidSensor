@@ -28,9 +28,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void clickToAccele(View view) {
+    public void clickToLight(View view) {
+        Intent intent = new Intent(this,LightSensorActivity.class);
+        startActivity(intent);
     }
 
-    public void clickToProximity(View view) {
+    public void clickToHearRate(View view) {
+        Intent intent = new Intent(this,HeartRateActivity.class);
+        startActivity(intent);
     }
 }
