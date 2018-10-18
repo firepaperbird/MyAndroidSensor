@@ -37,5 +37,17 @@
         android:text="Heart rate Sensor"
         android:id="@+id/btHRM"
         android:onClick="clickToHearRate"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer Sensor"
+        android:id="@+id/btAcce"
+        android:onClick="clickToAccele"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proximity Sensor"
+        android:id="@+id/btProxy"
+        android:onClick="clickToProximity"/>
 
 </LinearLayout>
