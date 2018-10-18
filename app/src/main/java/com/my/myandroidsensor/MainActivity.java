@@ -31,14 +31,16 @@ public class MainActivity extends AppCompatActivity {
     public void clickToLight(View view) {
         Intent intent = new Intent(this,LightSensorActivity.class);
         startActivity(intent);
-    public void clickToAccele(View view) {
-        Intent intent = new Intent(this,AccelerometerActivity.class);
-        startActivity(intent);
     }
 
-    public void clickToHearRate(View view) {
-        Intent intent = new Intent(this,HeartRateActivity.class);
+    public void clickToAccele(View view) {
+        Intent intent = new Intent(this, AccelerometerActivity.class);
         startActivity(intent);
+    }
+    public void clickToHearRate(View view) {
+        Intent intent = new Intent(this, HeartRateActivity.class);
+        startActivity(intent);
+    }
     public void clickToProximity(View view) {
         Intent intent = new Intent(this,ProximityActivity.class);
         startActivity(intent);
