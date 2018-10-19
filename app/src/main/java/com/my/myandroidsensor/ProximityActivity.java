@@ -6,6 +6,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 
 public class ProximityActivity extends AppCompatActivity implements SensorEventListener{
@@ -41,9 +42,9 @@ public class ProximityActivity extends AppCompatActivity implements SensorEventL
     public void onSensorChanged(SensorEvent sensorEvent) {
         ImageView img = findViewById(R.id.imgPro);
         if(sensorEvent.values[0] == 0){
-            img.setImageResource(R.drawable.horizontal);
+            img.setVisibility(View.INVISIBLE);
         }else {
-            img.setImageResource(R.drawable.vertical);
+            img.setImageResource(R.drawable.horizontal);
         }
     }
 
