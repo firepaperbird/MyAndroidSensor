@@ -42,6 +42,8 @@ public class ProximityActivity extends AppCompatActivity implements SensorEventL
     public void onSensorChanged(SensorEvent sensorEvent) {
         ImageView img = findViewById(R.id.imgPro);
         img.setImageResource(R.drawable.horizontal);
+        img.setScaleX(2.0f);
+        img.setScaleY(2.0f);
         if(sensorEvent.values[0] == 0){
             img.setVisibility(View.INVISIBLE);
         }else {
